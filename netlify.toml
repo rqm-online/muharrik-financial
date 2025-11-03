@@ -1,0 +1,13 @@
+[build]
+command = "pnpm run build"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "18"
+NPM_FLAGS = "--version"
+PNPM_FLAGS = "--version"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
