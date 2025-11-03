@@ -1,0 +1,13 @@
+# Netlify redirects for SPA (Single Page Application)
+# This ensures all routes are handled by React Router
+
+/*    /index.html   200
+
+# API redirects (if needed)
+/api/*  /.netlify/functions/:splat  200
+
+# Admin routes
+/admin/*  /index.html  200
+/komite/*  /index.html  200
+/guru/*  /index.html  200
+/santri/*  /index.html  200
